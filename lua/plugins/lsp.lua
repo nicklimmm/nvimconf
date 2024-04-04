@@ -5,6 +5,9 @@ return {
       inlay_hints = { enabled = true },
       servers = {
         ocamllsp = { mason = false },
+        emmet_language_server = {
+          filetypes = { "html", "css", "typescriptreact", "heex" },
+        },
       },
     },
   },
