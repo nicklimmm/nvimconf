@@ -6,6 +6,8 @@ return {
         "ocaml",
         "elixir",
         "heex",
+        "gleam",
+        "rust",
       },
     },
   },
